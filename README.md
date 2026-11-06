@@ -28,11 +28,23 @@ AttackPath AI is an AI-driven VAPT (Vulnerability Assessment and Penetration Tes
 - AI-assisted analysis for attack-path reasoning
 
 ## Project Structure
-## How to Use
-1. Open the live demo link above.
-2. Enter an in-scope target (e.g. `https://demo.vulnshop.local`).
-3. Click **Start assessment** and approve the plan.
-4. View the scan progress and the correlated attack path on the dashboard.
+## Setup and Execution
+
+### Option 1: Run the live demo (quickest)
+1. Open the live demo: https://burrowing-path-guard-ai.base44.app
+2. Enter the demo target `https://demo.vulnshop.local`.
+3. Click **Start assessment**, approve the plan, and view the findings and attack paths.
+
+### Option 2: Run locally
+Requirements: Node.js 18 or higher
+
+1. Clone the repo: `git clone https://github.com/psanskriti052-png/attackpath-ai.git`
+2. Go into the folder: `cd attackpath-ai`
+3. Install packages: `npm install`
+4. Start the app: `npm run dev`
+5. Open the local link shown in the terminal (usually http://localhost:5173)
+
+Note: the app was built on Base44, and the backend runs on the Base44 platform. The live demo link is the fully working version.
 
 ## Ethical Use
 This tool is for **authorised security testing only**. The built-in scope guard prevents scanning of unapproved hosts.
